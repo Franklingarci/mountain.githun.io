@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0; 
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding:20px;
+
+
+}
+ nav li a{
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+}
+.homepage{
+    background-image: url(lake-o-hara-yoho-national-park-with-waterfront-carbin.jpg);
+    background-size: cover;
+  background-position:center ;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+
+main{
+    padding-left: 20px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top:40%;
+    left: 15%;
+
+   
+}
+h1{
+   text-align: center; 
+   padding: 25px;
+   color: white;
+}
+.packages{
+    display: flex;
+    justify-content: space-evenly; 
+    text-align: center;
+}
+.package{
+    background-image:url(sergei-a--heLWtuAN3c-unsplash.jpg) ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 70vh;
+
+}
+h3{
+    text-align: center;
+}
+#CS{
+    padding-right: 25px;
+}
+#SFS{
+padding-right:25px ;
+}
+
+
+i{
+    font-size: 55px;
+    align-items: center;
+    display: flex;
+    color: var(--color1);
+    margin-bottom: 0;
+    padding: 0;
+  }
+ 
+  nav .fa-solid{
+    display: none;
+  }
+  .about-us{
+    margin: 0 auto;
+    width: 580px;
+  }
+  .family{
+    background-image: url(pexels-fwstudio-129731.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .family h3{
+    color: white;
+  }
+  .family p{
+    color: white;
+  }
+  h3{
+    padding-bottom:40px ;
+  }
+  #list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  #BFP{
+    width: 500px;
+  }
+  #DWP{
+    width: 500px;
+  }
+  .packages p{
+    text-align: center;
+    margin-top:0;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:azure;
+    padding: 20px;
+    color: black;
+  }
+  .family p{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:rgb(185, 228, 121);;
+    padding: 20px;
+    color: black;
+  }
+  
+  .activities{
+    background-image: url(bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+  }
+  .activities p{
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(185, 228, 121);
+    padding: 20px;
+  }
+  #dif{
+    display: flex;
+    text-align: center;
+    color: white;
+  }
+  #ski{
+    text-align: center;
+
+  }
+  #MACR{
+    text-align: center;
+   
+  }
+  #BSE{
+    text-align: center;
+   
+  }
+  .entertainment{
+    background-image: url(pexels-eberhard-grossgasteiger-2437295.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  
+  }
+  .entertainment p{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:azure;
+    padding: 20px;
+    color: black;
+  }
+  .food{
+    background-image: url(1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  .food p{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:rgb(185, 228, 121);;
+    padding: 20px;
+    color: black;
+    margin-bottom: 20px;
+  }
+ #MR{
+    text-align: center;
+   
+  }
+  #SIK{
+    text-align: center;
+ 
+   
+  }
+  #OB{
+    text-align: center;
+  }
+  #spa{
+    background-image: url(Spa1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+  }
+ #spa p{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color:azure;
+  padding: 20px;
+  }
+  #places {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: black;
+  }
+  #places h3{
+    color:  white ;
+  }
+
+@media screen and ( max-width:900px ) {
+    
+    .packages{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    
+    } 
+    main{
+
+        padding-left: 20px;
+        color: white;
+        font-size: 15px;
+       text-align: center;
+        justify-self: center;
+        position: absolute;
+        top:40%;
+        left: 3%; 
+    }
+    nav .fa-solid{
+        display: block;
+        font-size:25px;
+        color:white;
+        
+
+      }
+     nav ul{
+        background-color: greenyellow;
+        position: fixed;
+        top: 0;
+        right:-200px;
+        width:40%;
+        height:100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    
+     }
+     nav ul li{
+        display: block;
+    
+     }
+     nav ul .fa-solid{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+     }
+     nav .fa-bars{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 280px;
+        cursor: pointer;
+     }
+     #Logo-2{
+        display: none;
+    
+     }
+     #Logo{
+    display: none;
+     }
+     nav{
+        display: flex;
+        justify-content: end;
+        margin-right: 200px;
+         padding-top:40px ;
+     }
+     .homepage{
+        background-image: url(lake-o-hara-yoho-national-park-with-waterfront-carbin.jpg);
+        background-size: cover;
+      background-position:center ;
+      background-repeat: no-repeat;
+      width: 100%;
+     
+    }
+    #SFS{
+        margin: 0 auto;
+        width: 85%;
+    }
+    #SFS h3{
+        margin: 0 auto;
+        width: 75%;
+    }
+    #BFLS{
+        margin: 0 auto;
+        width: 85%;
+    }
+    #BFLS h3{
+        margin: 0 auto;
+        width: 45%;
+    }
+    #CS{
+        margin: 0 auto;
+        width: 85%;
+    }
+    .about-us{
+        margin: 0 auto;
+        width: 300px;
+      }
+      #family{
+        width: 300px;
+      }
+      .package{
+        background-image:url(sergei-a--heLWtuAN3c-unsplash.jpg) ;
+        background-position: center;
+        background-size: cover;
+        color: white;
+      height: 100%;
+    
+    }
+    
+    #list{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    align-items: center;
+    }
+    .activities{
+      background-image: url(bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+    }
+    .activities p{
+      text-align: center;
+      margin-top: 30px;
+      background-color: rgb(185, 228, 121);
+      padding: 20px;
+    }
+    #Act{
+      width:350px;
+      height: 100%;
+    }
+   
+    #suite{
+      width: 100%;
+      height: 250px;
+    }
+    #BFP{
+      margin: 0 auto;
+      width:90%
+      }
+      #DWP{
+        margin: 0 auto;
+        width: 90%;
+      }
+
+      #dif{
+        display: block;
+      }
+      .food{
+        background-image: url(1.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+      }
+      .entertainment{
+        background-image: url(pexels-eberhard-grossgasteiger-2437295.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+      }
+      #spa{
+        background-image: url(Spa1.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        color: white;
+      }
+     #spa p{
+      text-align: center;
+      margin-top: 30px;
+      background-color:azure;
+      padding: 20px;
+      }
+      #places {
+        display: block;
+        color: black;
+      }
+      #ent{
+        width: 350px;
+      }
+}
+@media screen and ( min-width:1200px ) {
+  main{
+
+    padding-left: 20px;
+    color: white;
+    font-size: 35px;
+   text-align: center;
+    justify-self: center;
+    position: absolute;
+    top:40%;
+    left: 25%; 
+}
+nav li a{
+  font-size: 25px;
+  text-decoration: none;
+  color:white;
+}
+}
+@media screen and (max-width:900px) {
+  
+  #header{
+    color:white;
+    font-size: 30px;
+    margin-top:100px;
+   margin-left: auto
+  }
+  
+  #blank{
+    width:60%;
+    margin-left: 80px;
+  }
+  
+  #about-1{
+    display: flex;
+    align-items: center;
+  }
+  nav .fa-solid{
+    display: block;
+    font-size:25px;
+    color:white;
+  }
+
+ nav ul{
+    background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    right:-200px;
+    width:200px;
+    height:100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+
+ }
+ nav ul li{
+    display: block;
+    font-size: 10px;
+
+ }
+ nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+ }
+}
